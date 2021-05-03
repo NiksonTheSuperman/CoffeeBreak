@@ -1,2 +1,0 @@
-com/example/nosmoking/BuildConfig.java
- com.example.nosmoking.BuildConfig
