@@ -2,6 +2,7 @@ package com.example.nosmoking
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
@@ -12,8 +13,8 @@ import com.example.nosmoking.ui.adapter.CoffeeAdapter
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
         val binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         binding.activityMainLlCart.setOnClickListener {
 
         }
